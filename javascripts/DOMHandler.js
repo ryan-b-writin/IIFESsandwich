@@ -1,4 +1,5 @@
 var checkbox = document.getElementsByTagName("input");
+var clickHere = document.getElementById("clickHere");
 var outputTarget = document.getElementById("outputTarget");
 var priceTarget = document.getElementById("priceTarget");
 
@@ -14,12 +15,9 @@ var cheeseClear = document.getElementsByClassName("cheeseClear");
 var condimentClear = document.getElementById("condimentClear");
 var veggieClear = document.getElementById("veggieClear");
 
-
-//add event listener to checkboxes on click
+//when you click a "no bread/cheese/whatever" clear the other checkboxes
 for (var i=0; i<checkbox.length;i++) {
   checkbox[i].addEventListener("click", function(){
-
-    //when you click a "no bread/cheese/whatever" clear the other checkboxes
     if (this.value === "nobread") {
       for (var j=0;j<breadBoxes.length;j++)
       breadBoxes[j].checked = false;
@@ -67,5 +65,20 @@ for (var i=0; i<veggieBoxes.length; i++) {
     veggieClear.checked = false;
   })
 }
+
+//display sandwich & price on click
+outputTarget.addEventListener("click", function(){
+
+  // Add topping prices
+  SandwichMaker.addMeat();
+  SandwichMaker.addBread();
+  SandwichMaker.addCheese();
+  SandwichMaker.addCondiments();
+  SandwichMaker.addVeggies();
+
+  //print out final price
+  priceTarget.innerHTML = "Your sandwich costs: $"+SandwichMaker.getPrice();
+  clickHere.innerHTML = "Click again for seconds!!"
+});
 
 

@@ -10,47 +10,43 @@
   <h3>What would you like on your sandwich?</h3>
 
   <section id="bread"><p>choose your bread carefully. this is important</p>
-  <label><input type="checkbox" class="bread" value="standard">Standard bread</label><br>
-  <label><input type="checkbox" class="bread" value="old">Oldbread</label><br>
-  <label><input type="checkbox" class="bread" value="industrial">Industrial strength bread</label><br>
+  <label><input type="checkbox" name="bread" class="bread" id="standard">Standard bread</label><br>
+  <label><input type="checkbox" class="bread" id="old">Oldbread</label><br>
+  <label><input type="checkbox" class="bread" id="industrial">Industrial strength bread</label><br>
   <label><input type="checkbox" id="breadClear" value="nobread">Nobread</label><br>
   </section>
 
   <section id="meat"><p>ok now select a meat and don't screw it up like you always do</p>
-  <label><input type="checkbox" class="meat" value="turkey">Turkey</label><br>
-  <label><input type="checkbox" class="meat" value="superturkey">Superturkey</label><br>
-  <label><input type="checkbox" class="meat" value="goat">Goat</label><br>
-  <label><input type="checkbox" id="meatClear" value="nomeat">i screwed up again. just forget the meat. sorry</label><br>
+  <label><input type="checkbox" class="meat" id="turkey">Turkey</label><br>
+  <label><input type="checkbox" class="meat" id="superTurkey">Superturkey</label><br>
+  <label><input type="checkbox" class="meat" id="goat">Goat</label><br>
+  <label><input type="checkbox" id="meatClear">i screwed up again. just forget the meat. sorry</label><br>
   </section>
 
   <section id="cheese"><p>would you like some cheese, friend</p>
-  <label><input type="checkbox" class="cheese" value="yes">Yes please.</label><br>
+  <label><input type="checkbox" class="cheese" id="yes">Yes please.</label><br>
   <label><input type="checkbox" class="cheeseClear" value="nocheese">Wait what kind of cheese?</label><br>
   <label><input type="checkbox" class="cheeseClear" value="nocheese">And since when are we friends? You are a website.</label><br>
   <label><input type="checkbox" class="cheeseClear" value="nocheese">No cheese until you answer my questions dangit</label><br>
   </section>
 
   <section id="condiments"><p>What color of ketchup do you prefer?</p>
-  <label><input type="checkbox" class="condiments" value="red">Red ketchup</label><br>
-  <label><input type="checkbox" class="condiments" value="blue">Blue ketchup</label><br>
-  <label><input type="checkbox" class="condiments" value="black">Black ketchup</label><br>
+  <label><input type="checkbox" class="condiments" id="red">Red ketchup</label><br>
+  <label><input type="checkbox" class="condiments" id="blue">Blue ketchup</label><br>
+  <label><input type="checkbox" class="condiments" id="black">Black ketchup</label><br>
   <label><input type="checkbox" id="condimentClear" value="nocondiments">Invisible ketchup</label><br>
   </section>
 
   <section id="veggies"><p>aww yiss now let's get some veggies on that bad boy</p>
-  <label><input type="checkbox" class="veggies" value="carrots">Carrots</label><br>
-  <label><input type="checkbox" class="veggies" value="broccoli">Broccoli</label><br>
-  <label><input type="checkbox" class="veggies" value="turnips">Turnips</label><br>
+  <label><input type="checkbox" class="veggies" id="carrots">Carrots</label><br>
+  <label><input type="checkbox" class="veggies" id="broccoli">Broccoli</label><br>
+  <label><input type="checkbox" class="veggies" id="turnips">Turnips</label><br>
   <label><input type="checkbox" id="veggieClear" value="noveggies">no! vegetables are gross</label><br>
   </section>
 
   <section id="outputTarget">
-    <p id="breadTarget"></p>
-    <p id="meatTarget"></p>
-    <p id="cheeseTarget"></p>
-    <p id="condimentsTarget"></p>
-    <p id="veggiesTarget"></p>
     <p id="priceTarget"></p>
+    <p id="clickHere">Click here for a sandwich!</p>
   </section>
 
 </body>

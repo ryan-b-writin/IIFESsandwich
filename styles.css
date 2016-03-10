@@ -18,3 +18,11 @@ section p {
   color: red;
 }
 
+#outputTarget {
+  text-align: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+

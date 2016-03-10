@@ -14,6 +14,9 @@ var SandwichMaker = (function() {
     },
     getPrice: function() {
       return totalPrice;
+    },
+    zero: function() {
+      totalPrice = 0;
     }
   };
 })();

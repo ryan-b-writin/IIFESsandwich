@@ -79,6 +79,9 @@ outputTarget.addEventListener("click", function(){
   //print out final price
   priceTarget.innerHTML = "Your sandwich costs: $"+SandwichMaker.getPrice();
   clickHere.innerHTML = "Click again for seconds!!"
+
+  //zero out price for next click
+  SandwichMaker.zero();
 });
 
 

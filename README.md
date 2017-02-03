@@ -1,9 +1,9 @@
 # How To Use
 View this page at: http://www.midnightthunder.net/exercises/sandwich/index.html  
-1. Select any number of sandwich parts by checking or unchecking the corresponding checkboxes.
-2. Selecting 'no topping' options will clear other checkboxes for the same type of topping.
-3. Click the bottom right card and it will display the total cost of your custom sandwich.
-4. Clicking the card again will re-total the price if any selections have been changed.
+1. Select any number of sandwich parts by checking or unchecking the corresponding checkboxes.  
+2. Selecting 'no topping' options will clear other checkboxes for the same type of topping.  
+3. Click the bottom right card and it will display the total cost of your custom sandwich.  
+4. Clicking the card again will re-total the price if any selections have been changed.  
 
 # Original assignment:
 
